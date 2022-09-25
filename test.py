@@ -8,9 +8,9 @@ def is_prime(n):
                 status = False
     return status
 
-for n in range(1,101):
+for n in range(1,250):
     if is_prime(n):
-        if n==97:
-            print n
+        if n==250:
+            print (n)
         else:
-            print n,",",
+            print (n),",",
